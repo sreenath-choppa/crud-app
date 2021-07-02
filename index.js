@@ -12,9 +12,9 @@ const app = express();
 
 //Create Connection
 const conn = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: 'mysqldb',
+  user: 'node',
+  password: 'password',
   database: 'crud_db'
 });
 
