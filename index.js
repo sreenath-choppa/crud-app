@@ -13,7 +13,7 @@ const app = express();
 //Create Connection
 const conn = mysql.createConnection({
   host: 'mysqldb',
-  user: 'node',
+  user: 'root',
   password: 'password',
   database: 'crud_db'
 });
